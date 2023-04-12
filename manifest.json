@@ -1,0 +1,14 @@
+{
+    "name": "File Upload Plugin",
+    "version": "0.1.0",
+    "description": "A plugin for ChatGPT that allows users to upload files to be used in the bot's responses",
+    "author": "Charnpreet Singh",
+    "license": "NA",
+    "entrypoint": "file_upload_plugin",
+    "url": "",
+    "dependencies": {
+        "fastapi": "^0.68.1",
+        "uvicorn": "^0.15.0",
+        "python-multipart": "^0.0.5"
+    }
+}
